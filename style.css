@@ -1,0 +1,18 @@
+body {
+    background: white;
+    color: black;
+    text-align: center;
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 50px;
+}
+
+.cardImage {
+    align-self: center;
+}
+
+#cardImage {
+    display: none;        /* hidden until selected */
+    width: 10%;
+    margin: 20px auto;    /* THIS centres it */
+    display: block;       /* makes margin:auto work */
+}
